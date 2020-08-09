@@ -11,8 +11,8 @@
 	width: 20px;
 	height: 20px;
 	}
-.shooter { background-image:url('images/shooter.jpg'); }
-.invader { background-image:url('images/invader1.png'); }
+.shooter { background-image:url('/images/shooter.jpg'); }
+.invader { background-image:url('/images/invader1.png'); }
 .boom { background-color: red; }
 .laser { background-image: linear-gradient(to right, black, Yellow, red, Yellow, black ); }
 body { background-color:black;
