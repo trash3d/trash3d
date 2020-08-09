@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	const tail = currentSnake.pop()
 	squares[tail].classList.remove('snake')
+        console.log(currentSnake, direction)
 	currentSnake.unshift(currentSnake[0] + direction)
+        console.log(currentSnake)
 
 	if(squares[currentSnake[0]].classList.contains('apple')) {
 		squares[currentSnake[0]].classList.remove('apple')	
