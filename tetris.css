@@ -1,0 +1,53 @@
+div { 
+	background-color: black;
+	height: 10px;
+	width: 10px;
+}
+
+.grid {
+	height: 200px;
+	width: 100px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.previous-grid {
+	height:40px;
+	width:40px;
+	display:flex;
+	flex-wrap: wrap;
+	margin:10px;
+}
+
+.previous-shape {
+	height:40px;
+	width:40px;
+}
+
+.block {
+	background-color:white;
+	border-radius: 7px;	
+	
+}
+.block2 {
+	background-color:purple;
+}
+.block3 { 
+	background-color:green;
+}
+button {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color:brown;
+  color:white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: crosshair;
+}
+.game {margin-top:-50px;}
+
+.hor { writing-mode: vertical-lr;}
